@@ -1,0 +1,124 @@
+/*font*/
+
+
+/*Body*/
+body {
+    background-color: red;
+    position: relative;
+    /* width: 100vw; */
+    /* height: 100vh; */
+}
+
+/*Header*/
+
+.burger-menu {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 100;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: #333;
+    transition: all 0.3s ease;
+}
+
+.mobile-menu {
+    position: fixed;
+    left: -200vw;
+    top: 0;
+    height: 100%;
+    width: 80vw;
+    background: rgb(49, 139, 162);
+    background: linear-gradient(90deg, rgba(49, 139, 162, 1) 0%, rgba(0, 212, 255, 0.07335434173669464) 100%);
+    transition: left 0.3s ease;
+    z-index: 99;
+    padding: 80px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.mobile-menu.active {
+    left: 0;
+}
+
+.burger-menu.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.burger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-menu.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+/*Main*/
+
+main section {
+    height: 100vh;
+    width: 100vw;
+}
+
+main section.presentation img {
+    width: 50%;
+}
+
+/*Footer*/
+
+
+
+
+
+/*Font*/
+
+/* Akhand Extralight
+font-family: "akhand", sans-serif;
+font-weight: 100;
+font-style: normal;
+
+Akhand Light
+font-family: "akhand", sans-serif;
+font-weight: 200;
+font-style: normal;
+
+Akhand Semilight
+font-family: "akhand", sans-serif;
+font-weight: 300;
+font-style: normal;
+
+Akhand Regular
+font-family: "akhand", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Akhand Semibold
+font-family: "akhand", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+Akhand Bold
+font-family: "akhand", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+Akhand Extrabold
+font-family: "akhand", sans-serif;
+font-weight: 800;
+font-style: normal;
+
+Akhand Black
+font-family: "akhand", sans-serif;
+font-weight: 900;
+font-style: normal; */
