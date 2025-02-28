@@ -8,36 +8,488 @@
     <link rel="stylesheet" href="https://use.typekit.net/ljr7akd.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/vague.css">
 </head>
 
 <body>
+    <h2 class="faitParMobile">Par Tony Ton</h2>
     <header>
         <button class="burger-menu" aria-label="Ouvrir le menu">
             <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
         </button>
-
         <nav class="mobile-menu">
-            <a href="#">Accueil</a>
-            <a href="#">Services</a>
-            <a href="#">À propos</a>
-            <a href="#">Contact</a>
+            <img class="soleil" src="assets/icons8-soleil.svg" alt="soleil">
+            <img class="smartphone" src="assets/icons8-smartphone-50.png" alt="smartphone">
+            <a href="#prese">Présentation</a>
+            <a href="#obj">Objectif du Projet</a>
+            <a href="#desc">Description</a>
+            <a href="#proto">Prototype</a>
+            <a href="#prob">Problème rencontrer</a>
+            <a href="#demo">Démo</a>
+            <a href="#extr">Extrait de Code</a>
+            <a href="#refle">Réflexion</a>
+        </nav>
+        <nav class="desktop-menu">
+            <h2 class="faitParDesktop">Par Tony Ton</h2>
+            <a href="#prese">Présentation</a>
+            <a href="#obj">Objectif du Projet</a>
+            <a href="#desc">Description</a>
+            <a href="#proto">Prototype</a>
+            <a href="#prob">Problème rencontrer</a>
+            <a href="#demo">Démo</a>
+            <a href="#extr">Extrait de Code</a>
+            <a href="#refle">Réflexion</a>
         </nav>
     </header>
     <main>
-        <section class='presentation'>
-            <h1>Prêt à Sortir</h1>
-            <img class="svg" src="assets/Pr_t_Sortir-removebg-preview.png" alt="qr code">
+        <section class="prese" id="prese">
+            <div>
+                <h1>Prêt à Sortir</h1>
+            </div>
+            <div class="qr">
+                <a href="https://www.mediafire.com/file/yitd097q7h59p4t/Pr%C3%AAt-%C3%A0-Sortir.apk/file"
+                    target="_blank">
+                    <img class="svg" src="assets/Pr_t_Sortir-removebg-preview.png" alt="qr code">
+                </a>
+                <p>scanner/cliquer</p>
+            </div>
+            <svg id="svg" viewBox="0 0 1440 690" xmlns="http://www.w3.org/2000/svg"
+                class="transition duration-300 ease-in-out delay-150">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0693e3" stop-opacity="0.4" />
+                        <stop offset="100%" stop-color="#0693e3" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0693e3" stop-opacity="0.53" />
+                        <stop offset="100%" stop-color="#0693e3" stop-opacity="0" />
+                    </linearGradient>
+                    <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" stop-color="#0693e3" stop-opacity="1" />
+                        <stop offset="100%" stop-color="#0693e3" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+
+
+                <path
+                    d="M 0,700 L 0,131 C 53.78203240058909,152.6863033873343 107.56406480117818,174.37260677466864 178,176 C 248.43593519882182,177.62739322533136 335.5257731958763,159.1958762886598 391,133 C 446.4742268041237,106.80412371134021 470.3328424153167,72.84388807069219 526,80 C 581.6671575846833,87.15611192930781 669.1428571428571,135.42857142857144 737,153 C 804.8571428571429,170.57142857142856 853.0957290132549,157.44182621502208 900,152 C 946.9042709867451,146.55817378497792 992.4742268041234,148.80412371134022 1051,136 C 1109.5257731958766,123.19587628865978 1181.0073637702503,95.34167893961708 1248,92 C 1314.9926362297497,88.65832106038292 1377.4963181148748,109.82916053019146 1440,131 L 1440,700 L 0,700 Z"
+                    stroke="none" stroke-width="0" fill="url(#grad1)"
+                    class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+                <path
+                    d="M 0,700 L 0,306 C 61.572901325478625,271.1798600883652 123.14580265095725,236.3597201767305 177,252 C 230.85419734904275,267.6402798232695 276.98969072164954,333.7409793814433 330,353 C 383.01030927835046,372.2590206185567 442.89543446244465,344.67636229749627 510,333 C 577.1045655375553,321.32363770250373 651.4285714285713,325.5535714285715 725,340 C 798.5714285714287,354.4464285714285 871.3902798232697,379.10935198821795 927,366 C 982.6097201767303,352.89064801178205 1021.0103092783504,302.0090206185567 1067,289 C 1112.9896907216496,275.9909793814433 1166.5684830633286,300.85456553755523 1230,310 C 1293.4315169366714,319.14543446244477 1366.7157584683357,312.5727172312224 1440,306 L 1440,700 L 0,700 Z"
+                    stroke="none" stroke-width="0" fill="url(#grad2)"
+                    class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
+                <path
+                    d="M 0,700 L 0,481 C 69.2282768777614,467.5296391752577 138.4565537555228,454.05927835051546 204,450 C 269.5434462444772,445.94072164948454 331.4020618556701,451.29252577319585 386,474 C 440.5979381443299,496.70747422680415 487.9351988217967,536.770618556701 537,532 C 586.0648011782033,527.229381443299 636.8571428571429,477.62500000000006 693,476 C 749.1428571428571,474.37499999999994 810.6362297496319,520.729381443299 876,535 C 941.3637702503681,549.270618556701 1010.5979381443299,531.457474226804 1075,508 C 1139.4020618556701,484.54252577319596 1198.9720176730489,455.44072164948454 1259,450 C 1319.0279823269511,444.55927835051546 1379.5139911634756,462.7796391752577 1440,481 L 1440,700 L 0,700 Z"
+                    stroke="none" stroke-width="0" fill="url(#grad3)"
+                    class="transition-all duration-300 ease-in-out delay-150 path-2"></path>
+            </svg>
+        </section>
+        <section class="obj" id="obj">
+            <h1>Objectif du projet</h1>
+            <div class="background">
+                <h3>Objectif du projet de recherche</h3>
+
+
+                <p>Mon objectif principal est d’<span>apprendre Flutter</span> et de comprendre son fonctionnement
+                    en profondeur.</p>
+                <p>J’ai choisi <span>Flutter</span> car il permet de développer des <span>apppcations mobiles
+                        multiplateformes</span> avec un seul codebase, ce qui est un atout majeur.</p>
+                <p>Ayant déjà appris <span>React</span>, j’ai trouvé que <span>Flutter</span> partage plusieurs
+                    simiptudes avec lui, notamment dans la structure des composants et le fonctionnement du
+                    framework.</p>
+                <p>À travers ce projet, je souhaite explorer les <span>widgets Flutter</span>, la gestion de l’état
+                    et l’intégration d’API pour mieux maîtriser cette technologie.</p>
+                </ul>
+            </div>
+
+            <div class="background">
+                <h3>Présentation rapide de Flutter</h3>
+                <p>Flutter est un <span>framework open-source</span> développé par Google pour créer des
+                    <span>applications mobiles</span>, <span>web et desktop</span> avec un seul code base. Il
+                    utilise le langage <span>Dart</span> et offre
+                    une performance proche du natif grâce à son moteur graphique <span>Skia</span>.
+                </p>
+                <h3>Equivalent de Flutter</h3>
+                <table>
+                    <tr>
+                        <th> Critère</th>
+                        <th> Flutter</th>
+                        <th> React Native</th>
+                    </tr>
+                    <tr>
+                        <td>Langage</td>
+                        <td class="flutter">Dart (Google)</td>
+                        <td class="react">JavaScript (Facebook)</td>
+                    </tr>
+                    <tr>
+                        <td>Interface (UI)</td>
+                        <td class="flutter">Widgets 100% personnalisables</td>
+                        <td class="react">Utilise les composants natifs</td>
+                    </tr>
+                    <tr>
+                        <td>Facilité d'apprentissage</td>
+                        <td class="flutter">Un peu plus dur (Dart)</td>
+                        <td class="react">Facile si tu connais le web (JS)</td>
+                    </tr>
+                    <tr>
+                        <td>Écosystème & plugins</td>
+                        <td class="flutter">Moins de plugins, mais en croissance</td>
+                        <td class="react">Beaucoup de bibliothèques et support</td>
+                    </tr>
+                    <tr>
+                        <td>Hot Reload</td>
+                        <td class="flutter">Très rapide</td>
+                        <td class="react">Rapide, mais moins que Flutter</td>
+                    </tr>
+                </table>
+                <h3>Le choix</h3>
+                <ul>
+                    <li><span class="sans-underline">Flutter</span> : si tu veux une app ultra-performante et un
+                        design 100% sur mesure.
+                    </li>
+                    <li><span class="sans-underline">React Native</span> : si tu viens du développement web et veux
+                        utiliser JavaScript.
+                    </li>
+                </ul>
+                <p>En résumé : <span class="sans-underline">Flutter = rapidité et flexibilité, React Native =
+                        simplicité et intégration
+                        facile</span>.
+                </p>
+            </div>
+        </section>
+        <section class="desc" id="desc">
+            <h1>Description</h1>
+            <div class="background">
+                <h3>Projet d'application mobile météo</h3>
+
+                <h3>But du projet</h3>
+                <ul>
+                    <li>Créer une <span>application mobile intuitive et accessible</span> permettant de consulter
+                        facilement la météo.</li>
+                </ul>
+
+                <h3>Fonctionnalités principales</h3>
+                <ul>
+                    <li>Affichage des <span>prévisions météorologiques en temps réel</span>.</li>
+                    <li>Consultation des <span>conditions actuelles</span>.</li>
+                    <li>Recommandations <span>vestimentaires adaptées</span> à la météo du jour.</li>
+                </ul>
+
+                <h3>Technologies utilisées</h3>
+                <ul>
+                    <li>Développement avec <span>Flutter</span> pour assurer une <span>expérience fluide et
+                            réactive</span> sur <span>Android et iOS</span>.</li>
+                    <li>Intégration de l’<span>API OpenWeatherMap</span> pour des <span>données météorologiques
+                            précises
+                            et actualisées</span>.</li>
+                </ul>
+
+                <h3>Expérience utilisateur</h3>
+                <ul>
+                    <li>Une <span>interface moderne et ergonomique</span>.</li>
+                    <li>Une consultation <span>simple et agréable</span> des prévisions et recommandations.</li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="proto" id="proto">
+            <h1>Prototype</h1>
+            <div class="background">
+                <div class="image">
+                    <div>
+                        <p>Premier Prototype</p>
+                        <img src="assets/iPhone14Pro–1.png" alt="premier">
+                    </div>
+                    <div>
+                        <p>Deuxième Prototype</p>
+                        <img src="assets/iPhone14Pro–2.png" alt="deuxieme">
+                    </div>
+                    <div class="carrouselle">
+                        <p>Troisième Prototype</p>
+                        <img src="assets/iPhone14Pro–3.png" alt="troisieme">
+                        <img src="assets/iPhone14Pro–4.png" alt="quatrieme">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="prob" id="prob">
+            <h1>Problème rencontrer</h1>
+            <div class="background">
+                <h3>Défis rencontrés durant le projet</h3>
+
+                <h3>Installation d'Android Studio</h3>
+                <ul>
+                    <li>Travaillant habituellement sur <span>Linux</span>, j’ai rencontré des difficultés pour
+                        installer
+                        et configurer <span>Android Studio</span>.</li>
+                    <li>Face à ces obstacles, j’ai dû utiliser <span>Windows</span>, ce qui a nécessité une période
+                        d’adaptation.</li>
+                </ul>
+
+                <h3>Problème avec les tests sur iPhone</h3>
+                <ul>
+                    <li>Après quelques semaines, j’ai découvert que <span>je ne pouvais pas utiliser mon
+                            iPhone</span>
+                        pour tester l’application.</li>
+                    <li><span>Apple impose des restrictions strictes</span> sur ses kits de développement, rendant
+                        l’émulation et les tests plus compliqués sans un appareil Apple enregistré et un Mac.</li>
+                </ul>
+
+                <h3>Limitations de l'API OpenWeatherMap</h3>
+                <ul>
+                    <li>Avec la <span>clé API gratuite</span>, les prévisions sont fournies <span>toutes les trois
+                            heures seulement</span>, limitant la précision des recommandations vestimentaires.</li>
+                    <li><span>Impossible d’obtenir des prévisions jour par jour</span> sans passer à une version
+                        payante.</li>
+                    <li>Pour améliorer l’application, <span>l’achat d’une clé API plus avancée</span> serait
+                        nécessaire.
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+        <section class="demo" id="demo">
+            <h1>Démo</h1>
+            <div class="background separation">
+                <img src="assets/demo.gif" alt="demo">
+                <div class="background">
+                    <h3>Description :</h3>
+                    <p>Voici une Démo rapide de l'application. On peut voir les prévisions de la météo dans la
+                        première
+                        page
+                        et les recommendations vestimentaire selon les prévisions dans la deuxième page.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="extr" id="extr">
+            <h1>Extrait de code</h1>
+            <div class="background">
+                <div class="code">
+                    Color _getTopColor() {
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (_meteo == null) return Colors.orange;<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfinal now = DateTime.now();
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfinal sunrise = _meteo!.sunrise;
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfinal sunset = _meteo!.sunset;
+                    <br>
+
+                    &nbsp&nbsp&nbsp&nbspif (now.isAfter(sunrise) && now.isBefore<br>(sunset)) {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn Colors.orange[800]!;<br>
+                    &nbsp&nbsp&nbsp&nbsp} else {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn Colors.blue[900]!;<br>
+                    &nbsp&nbsp&nbsp&nbsp}<br>
+                    }<br>
+                </div>
+                <h3>🔎 Explication :</h3>
+                <ul>
+                    <li>
+                        Si l'heure actuelle est entre le lever et le coucher du soleil, l'écran prend une teinte
+                        chaude
+                        (orange).
+                    </li>
+                    <li>Sinon, il passe à une teinte froide (bleu nuit).</li>
+                    <li>Cette transition donne un effet visuel fluide qui améliore l'expérience utilisateur.</li>
+                </ul>
+            </div>
+            <div class="background">
+                <div class="code">
+                    Lottie.asset(<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp_getWeatherAnimation(meteo?.condition),<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspwidth: 120,<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspheight: 120,<br>
+                    );<br>
+                </div>
+                <div class="code">
+                    String _getWeatherAnimation(String? condition) {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (condition == null) return
+                    'assets/meteo/default.json';<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspswitch (condition.toLowerCase()) {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcase 'clear':<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn
+                    'assets/meteo/lune.json';<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcase 'clouds':<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn
+                    'assets/meteo/nuage.json';<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcase 'rain':<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn
+                    'assets/meteo/pluie.json';<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspcase 'snow':<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn
+                    'assets/meteo/neige.json';<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspdefault:<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn
+                    'assets/meteo/default.json';<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+                    }<br>
+                </div>
+                <h3>🔎 Explication :</h3>
+                <ul>
+                    <li>_getWeatherAnimation(meteo?.condition) sélectionne une animation adaptée à la météo
+                        actuelle.
+                    </li>
+                    <li>Exemple : </li>
+                    <ul>
+                        <li>🌞 clear → Soleil</li>
+                        <li>☁️ clouds → Nuages</li>
+                        <li>🌧 rain → Pluie</li>
+                    </ul>
+                </ul>
+                <p>💡 Impact UX : Cela rend l’application plus attrayante et interactive.</p>
+            </div>
+            <div class="background">
+                <div class="code">
+                    Future&lt;String&gt; getVilleActuelle() async {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsptry {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLocationPermission permission =<br>
+                    await Geolocator.checkPermission();<br>
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (permission ==<br>
+                    LocationPermission.denied) {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppermission =<br>
+                    await Geolocator.requestPermission();<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (permission ==<br>
+                    LocationPermission.deniedForever) {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn "";<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPosition position = await<br>
+                    Geolocator.getCurrentPosition(<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsplocationSettings:<br>
+                    LocationSettings(accuracy: LocationAccuracy.high),<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp);<br>
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspList&lt;Placemark&gt; repere =
+                    await<br>
+                    placemarkFromCoordinates(position.latitude, position.longitude);<br>
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn<br>
+                    repere[0].locality ?? "";<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp} catch (e) {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn "";<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+                    }<br>
+
+                </div>
+                <h3>🔎 Explication :</h3>
+                <ul>
+                    <li>📍 Vérification des permissions de localisation</li>
+                    <li>📡 Récupération des coordonnées GPS de l’utilisateur</li>
+                    <li>🏙 Conversion des coordonnées en nom de ville avec placemarkFromCoordinates()</li>
+                </ul>
+                <p>💡 Utilisation : L’application affiche automatiquement la météo de la ville où se trouve
+                    l’utilisateur.</p>
+            </div>
+            <div class="background">
+                <div class="code">
+                    Future&lt;Meteo&gt; getMeteo(String nomVille) async {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsptry {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfinal rep = await http.get(<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspUri.parse('$baseUrl/weather?q=$nomVille&appid=$apiKey&units=metric'),<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp).timeout(const Duration(seconds:
+                    10));<br>
+                    <br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (rep.statusCode == 200) {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn
+                    Meteo.fromJson(jsonDecode(rep.body));<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp } else {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthrow
+                    Exception('Erreur ${rep.statusCode}');<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp } on SocketException {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthrow
+                    Exception('Pas
+                    de connexion internet');<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp} on TimeoutException {<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthrow
+                    Exception('Temps de réponse dépassé');<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
+                    }<br>
+
+                </div>
+                <h3>🔎 Explication :</h3>
+                <ul>
+                    <li>🔗 Appel API → L’URL contient le nom de la ville et la clé API.</li>
+                    <li>⏳ Timeout → Si la requête prend trop de temps, une erreur est affichée.</li>
+                    <li>🔄 Conversion JSON → Les données brutes sont transformées en objet Meteo.</li>
+                    <li>⚠ Gestion des erreurs → Si l'API ne répond pas ou si l’utilisateur n’a pas Internet, un
+                        message
+                        est affiché.</li>
+                </ul>
+                <p>💡 Utilisation : Cette méthode est appelée dans main.dart lors de l’initialisation pour obtenir
+                    la
+                    météo actuelle.</p>
+            </div>
+        </section>
+        <section class="refle" id="refle">
+            <h1>Réflexion</h1>
+            <div class="background">
+                <h3>Réflexion sur le projet de recherche</h3>
+
+                <h3>Points forts</h3>
+                <ul>
+                    <li><span>Autonomie totale</span> : Possibilité de gérer le projet à son rythme et selon ses
+                        propres
+                        méthodes.</li>
+                    <li><span>Apprentissage approfondi</span> : Exploration complète de <span>Flutter</span> sans
+                        dépendre d’un groupe.</li>
+                    <li><span>Flexibilité</span> : Capacité d’adapter les objectifs en fonction des découvertes et
+                        des
+                        défis rencontrés.</li>
+                </ul>
+
+                <h3>Points faibles</h3>
+                <ul>
+                    <li><span>Manque de soutien</span> : Pas d’équipe pour aider à résoudre les problèmes techniques
+                        ou
+                        conceptuels.</li>
+                    <li><span>Gestion du temps</span> : Risque de prendre plus de temps que prévu sans une bonne
+                        organisation.</li>
+                    <li><span>Complexité des obstacles</span> : Certains défis techniques, comme l’installation
+                        d’Android Studio ou les limitations d’Apple, sont plus difficiles à surmonter seul.</li>
+                </ul>
+            </div>
+            <div class="background">
+                <h3>Est-ce que j'ai atteint mon Objectif ?</h3>
+                <p>Oui, selon moi j'ai atteint mon objectif de ce projet de recherche. </p>
+                <ul>
+                    <li>Maîtrise de Flutter : J'ai une correct compréhension du framework, avec comment les widgets
+                        fonctionne et la gestion d'état.</li>
+                    <li>Application fonctionnelle : Le prototype final inclue toutes les Fonctionnalités clés
+                        prévues
+                        (prévision météorologique et recommendations vestimentaires)</li>
+                    <li>Adaptabilité : Malgré les problèmes que j'ai eu, j'ai réussis à trouver des alternatives
+                        pour
+                        contourner les problèmes</li>
+                </ul>
+            </div>
 
         </section>
 
 
     </main>
     <footer>
-
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 590" xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150">
+            <path
+                d="M 0,600 L 0,150 C 125.78947368421055,106.21052631578948 251.5789473684211,62.421052631578945 341,82 C 430.4210526315789,101.57894736842105 483.47368421052624,184.5263157894737 571,189 C 658.5263157894738,193.4736842105263 780.5263157894736,119.47368421052632 892,104 C 1003.4736842105264,88.52631578947368 1104.421052631579,131.57894736842107 1194,149 C 1283.578947368421,166.42105263157893 1361.7894736842104,158.21052631578948 1440,150 L 1440,600 L 0,600 Z"
+                stroke="none" stroke-width="0" fill="#0693e3" fill-opacity="0.53"
+                class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+            <path
+                d="M 0,600 L 0,350 C 100.00956937799043,319.11004784689 200.01913875598086,288.2200956937799 298,294 C 395.98086124401914,299.7799043062201 491.93301435406704,342.22966507177034 586,355 C 680.066985645933,367.77033492822966 772.2488038277513,350.8612440191388 860,335 C 947.7511961722487,319.1387559808612 1031.0717703349283,304.32535885167465 1127,307 C 1222.9282296650717,309.67464114832535 1331.4641148325359,329.8373205741627 1440,350 L 1440,600 L 0,600 Z"
+                stroke="none" stroke-width="0" fill="#0693e3" fill-opacity="1"
+                class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
+        </svg>
     </footer>
 </body>
 <script src="./js/animation_menu.js"></script>
+<script src="./js/carrouselle.js"></script>
 
 </html>
