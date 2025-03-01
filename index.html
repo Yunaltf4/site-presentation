@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/vague.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -33,6 +34,7 @@
         </nav>
         <nav class="desktop-menu">
             <h2 class="faitParDesktop">Par Tony Ton</h2>
+            <img class="logo" src="assets/favicon.png" alt="">
             <a href="#prese">Présentation</a>
             <a href="#obj">Objectif du Projet</a>
             <a href="#desc">Description</a>
@@ -45,14 +47,27 @@
     </header>
     <main>
         <section class="prese" id="prese">
-            <div>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/tony-ton-9293b12a8/" target="_blank"><img
+                        src="assets/icons8-linkedin-100.png" alt=""></a>
+                <a href="https://github.com/Yunaltf4" target="_blank"><img src="assets/icons8-github-100.png"
+                        alt=""></a>
+            </div>
+            <div class="principal">
+
                 <h1>Prêt à Sortir</h1>
+                <div class="images">
+                    <img class="flutter4" src="assets/flutter.svg" alt="flutter">
+                    <img class="openweather2" src="assets/openweather.svg" alt="OpenWeatherMap">
+                    <img class="smartphone1" src="assets/smartphone.svg" alt="smartphone">
+                    <img class="soleil1" src="assets/icons8-soleil.svg" alt="soleil">
+                </div>
             </div>
             <div class="qr">
                 <a href="https://www.mediafire.com/file/yitd097q7h59p4t/Pr%C3%AAt-%C3%A0-Sortir.apk/file"
                     target="_blank">
-                    <img class="svg" src="assets/Pr_t_Sortir-removebg-preview.png" alt="qr code">
                 </a>
+                <img class="svg" src="assets/pres_a_sortir_qr.png" alt="qr code">
                 <p>scanner/cliquer</p>
             </div>
             <svg id="svg" viewBox="0 0 1440 690" xmlns="http://www.w3.org/2000/svg"
@@ -93,14 +108,18 @@
                 <h3>Objectif du projet de recherche</h3>
 
                 <div class="width">
-                    <p>Mon objectif principal est d’<span>apprendre Flutter</span> et de comprendre son fonctionnement
-                        en profondeur.</p>
-                    <p>J’ai choisi <span>Flutter</span> car il permet de développer des <span>apppcations mobiles
-                            multiplateformes</span> avec un seul codebase, ce qui est un atout majeur.</p>
-                    <p>Ayant déjà appris <span>React</span>, j’ai trouvé que <span>Flutter</span> partage plusieurs
-                        simiptudes avec lui, notamment dans la structure des composants et le fonctionnement du
-                        framework.</p>
-                    <p>À travers ce projet, je souhaite explorer les <span>widgets Flutter</span>, la gestion de l’état
+                    <p>Mon objectif principal était d’<span>apprendre Flutter</span> et de comprendre le plus possible
+                        comment il fonctionne pour faire des applications mobiles.</p>
+                    <p>J’ai choisi <span>Flutter</span>, car il permet de développer des <span>apppcations mobiles
+                            multiplateformes</span> avec un seul codebase, qui est utilisable pour le web, sur android
+                        et sur apple. Ce qui est un atout majeur.</p>
+                    <p>Comme j'ai déjà appris <span>React</span>, dans les sessions passées, j'ai décidé de choisir
+                        <span>Flutter</span> comme il y a des ressemblances
+                        avec lui, notament comment est structuré les composants et le fonctionnement du
+                        framework.
+                    </p>
+                    <p>À travers ce projet, je souhaitais explorer les <span>widgets Flutter</span>, la gestion de
+                        l’état
                         et l’intégration d’API pour mieux maîtriser cette technologie.</p>
                 </div>
                 <img class="study" src="assets/study.svg" alt="etudier">
@@ -112,13 +131,14 @@
                 <img class="versus" src="assets/versus.png" alt="versus">
                 <img class="react" src="assets/react.svg" alt="react">
                 <h3>Présentation rapide de Flutter</h3>
-                <p>Flutter est un <span>framework open-source</span> développé par Google pour créer des
+                <p>Flutter est un <span>framework open-source</span> qui a été développer par Google pour créer des
                     <span>applications mobiles</span>, <span>web et desktop</span> avec un seul code base. Il
                     utilise le langage <span>Dart</span> et offre
-                    une performance proche du natif grâce à son moteur graphique <span>Skia</span> (librairie graphique
+                    une performance proche du natif (Swift pour Apple et kotlin pour android)grâce à son moteur
+                    graphique <span>Skia</span> (librairie graphique
                     open source).
                 </p>
-                <h3>Equivalent de Flutter</h3>
+                <h3>Équivalent de Flutter</h3>
                 <table>
                     <tr>
                         <th> Critère</th>
@@ -146,7 +166,7 @@
                         <td class="react">Beaucoup de bibliothèques et support</td>
                     </tr>
                     <tr>
-                        <td>Hot Reload</td>
+                        <td>Hot Reload (débogage)</td>
                         <td class="flutter">Très rapide</td>
                         <td class="react">Rapide, mais moins que Flutter</td>
                     </tr>
@@ -178,27 +198,27 @@
 
                 <h3>But du projet :</h3>
                 <ul>
-                    <li>Créer une <span>application mobile intuitive et accessible</span> permettant de consulter
+                    <li>Créer une <span>application mobile intuitive et accessible</span> qui permet de consulter
                         facilement la météo.</li>
                 </ul>
 
-                <h3>Fonctionnalités principales</h3>
+                <h3>Fonctionnalités principales :</h3>
                 <ul>
-                    <li>Affichage des <span>prévisions météorologiques en temps réel</span>.</li>
-                    <li>Consultation des <span>conditions actuelles</span>.</li>
-                    <li>Recommandations <span>vestimentaires adaptées</span> à la météo du jour.</li>
+                    <li>Affichager des <span>prévisions météorologiques en temps réel</span>.</li>
+                    <li>Consulter la <span>météo actuelle et future</span>.</li>
+                    <li>Recommender des<span> vêtements adaptées</span> à la météo du jour.</li>
                 </ul>
 
-                <h3>Technologies utilisées</h3>
+                <h3>Technologies utilisées :</h3>
                 <ul>
                     <li>Développement avec <span>Flutter</span> pour assurer une <span>expérience fluide et
-                            réactive</span> sur <span>Android et iOS</span>.</li>
+                            réactive</span> sur <span>Android</span> (je ne peux pas faire IOS).</li>
                     <li>Intégration de l’<span>API OpenWeatherMap</span> pour des <span>données météorologiques
                             précises
                             et actualisées</span>.</li>
                 </ul>
 
-                <h3>Expérience utilisateur</h3>
+                <h3>Expérience utilisateur :</h3>
                 <ul>
                     <li>Une <span>interface moderne et ergonomique</span>.</li>
                     <li>Une consultation <span>simple et agréable</span> des prévisions et recommandations.</li>
@@ -209,10 +229,22 @@
         <section class="proto" id="proto">
             <h1>Prototype</h1>
             <div class="background">
+                <div class="apprendre">
+                    <h3>Apprentissage</h3>
+                    <p>Avec la
+                        <a href="https://docs.flutter.dev/ui">Documentation de Flutter</a>, j'ai appris les bases sur
+                        comment le language fonctionne.
+                    </p>
+                    <p>Par la suite, j'ai regarder des vidéos sur comment on intègre l'API OpenWeatherMap dans du code
+                        et en même temps comment on ajoute les animations de Lotties. (<a
+                            href="https://youtu.be/yLtpMqvMgdY">Vidéo de Mitch Koko</a> )</p>
+                </div>
+                <h3>Identité visuelle</h3>
                 <div class="identiteVisuelle">
                     <div class="palette">
                         <h3>Palette de Couleur</h3>
                         <img src="assets/colorpalette.png" alt="Palette de Couleur">
+                        <p>Medium Blue, Orange (Web), Anti-Flash White, Oxford Blue, Silver</p>
                     </div>
                     <div class="font">
                         <h3>Font</h3>
@@ -241,48 +273,60 @@
             <h1>Problème rencontrer</h1>
             <div class="background">
                 <h3>Défis rencontrés durant le projet</h3>
+                <div class="width">
+                    <img class="linux" src="assets/linux.svg" alt="linux">
+                    <img class="cry" src="assets/cry.svg" alt="cry">
+                    <img class="apple" src="assets/apple-14.svg" alt="apple">
+                    <img class="openweather" src="assets/openweather.svg" alt="openweather">
+                    <img class="money" src="assets/hand-holding-money.svg" alt="tenirArgent">
+                    <h3>Installation d'Android Studio</h3>
+                    <ul>
+                        <li>Je travail habituellement sur <span>Linux</span> et j’ai rencontré des difficultés pour
+                            installer
+                            et configurer <span>Android Studio</span>.</li>
+                        <li>À cause que java et android studio ne voulais pas bien s'installer, j’ai dû utiliser
+                            <span>Windows</span> et j'ai perdu beaucoup de temps à cause
+                            de cela.
+                        </li>
+                    </ul>
 
-                <h3>Installation d'Android Studio</h3>
-                <ul>
-                    <li>Travaillant habituellement sur <span>Linux</span>, j’ai rencontré des difficultés pour
-                        installer
-                        et configurer <span>Android Studio</span>.</li>
-                    <li>Face à ces obstacles, j’ai dû utiliser <span>Windows</span>, ce qui a nécessité une période
-                        d’adaptation.</li>
-                </ul>
+                    <h3>Problème avec les tests sur iPhone</h3>
+                    <ul>
+                        <li>Après quelques semaines, j’ai découvert que <span>je ne pouvais pas utiliser mon
+                                iPhone</span>
+                            pour tester l’application.</li>
+                        <!-- <li><span>Apple impose des restrictions strictes</span> sur ses kits de développement, rendant
+                            l’émulation et les tests plus compliqués sans un appareil Apple enregistré et un Mac.</li> -->
+                        <li>Comme <span>Apple imposse des restrictions strictes</span> sur leurs appareils. Ce qui
+                            rendait
+                            l'émulation imposibble comme je devais utilisé un Iphone et un Mac.</li>
+                    </ul>
 
-                <h3>Problème avec les tests sur iPhone</h3>
-                <ul>
-                    <li>Après quelques semaines, j’ai découvert que <span>je ne pouvais pas utiliser mon
-                            iPhone</span>
-                        pour tester l’application.</li>
-                    <li><span>Apple impose des restrictions strictes</span> sur ses kits de développement, rendant
-                        l’émulation et les tests plus compliqués sans un appareil Apple enregistré et un Mac.</li>
-                </ul>
-
-                <h3>Limitations de l'API OpenWeatherMap</h3>
-                <ul>
-                    <li>Avec la <span>clé API gratuite</span>, les prévisions sont fournies <span>toutes les trois
-                            heures seulement</span>, limitant la précision des recommandations vestimentaires.</li>
-                    <li><span>Impossible d’obtenir des prévisions jour par jour</span> sans passer à une version
-                        payante.</li>
-                    <li>Pour améliorer l’application, <span>l’achat d’une clé API plus avancée</span> serait
-                        nécessaire.
-                    </li>
-                </ul>
+                    <h3>Limitations de l'API OpenWeatherMap</h3>
+                    <ul>
+                        <li>Avec la <span>clé API gratuite</span>, les prévisions sont fournies que <span>toutes les
+                                trois
+                                heures seulement</span>, qui limite les prévisions par heure.</li>
+                        <li><span>Impossible d’obtenir des prévisions jour par jour</span> sans passer à une version
+                            payante.</li>
+                        <li>Pour améliorer l’application, <span>acheter une clé API plus avancée</span> sera
+                            nécessaire.
+                        </li>
+                    </ul>
+                </div>
             </div>
 
         </section>
+        <div class="overlay" id="overlay"></div>
         <section class="demo" id="demo">
             <h1>Démo</h1>
             <div class="background separation">
-                <img src="assets/demo.gif" alt="demo">
+                <img src="assets/demo.gif" alt="demo" class="gif-clickable">
                 <div class="background">
                     <h3>Description :</h3>
-                    <p>Voici une Démo rapide de l'application. On peut voir les prévisions de la météo dans la
-                        première
+                    <p>Voici une Démo rapide de l'application. On peut voir les prévisions de la météo dans la première
                         page
-                        et les recommendations vestimentaire selon les prévisions dans la deuxième page.</p>
+                        et les recommendations vestimentaires selon les prévisions dans la deuxième page.</p>
                 </div>
             </div>
         </section>
@@ -454,33 +498,38 @@
                     la
                     météo actuelle.</p>
             </div>
+            <div class="background">
+                <div class="css">
+                    <img src="assets/css (1).png" alt="css">
+                    <img src="assets/css (2).png" alt="css">
+                </div>
+                <h3>🔎 Explication :</h3>
+                <p>Voici comment on fait l'équivalent du html/css. Il n'y a pas de balise ou autre. C'est juste du code
+                    et du style ensemble.</p>
+            </div>
         </section>
         <section class="refle" id="refle">
             <h1>Réflexion</h1>
             <div class="background">
                 <h3>Réflexion sur le projet de recherche</h3>
-
-                <h3>Points forts</h3>
                 <ul>
-                    <li><span>Autonomie totale</span> : Possibilité de gérer le projet à son rythme et selon ses
-                        propres
-                        méthodes.</li>
+                    <li><span>Autonomie totale</span> : Possibilité de gérer le projet à son rythme me donne plus de
+                        confiance pour le future.</li>
                     <li><span>Apprentissage approfondi</span> : Exploration complète de <span>Flutter</span> sans
-                        dépendre d’un groupe.</li>
+                        dépendre d’un groupe. Me montre que je suis capable d'apprendre de moi même et se voyait quand
+                        même dans les cours passés</li>
                     <li><span>Flexibilité</span> : Capacité d’adapter les objectifs en fonction des découvertes et
                         des
-                        défis rencontrés.</li>
-                </ul>
-
-                <h3>Points faibles</h3>
-                <ul>
+                        défis rencontrés.
+                    </li>
                     <li><span>Manque de soutien</span> : Pas d’équipe pour aider à résoudre les problèmes techniques
                         ou
-                        conceptuels.</li>
-                    <li><span>Gestion du temps</span> : Risque de prendre plus de temps que prévu sans une bonne
-                        organisation.</li>
+                        conceptuels ou même juste donner de la motivation.</li>
+                    <li><span>Gestion du temps</span> : Sans avoir une bonne organisation. je risue de prednre plus de
+                        temps dans mon travail que prévue.</li>
                     <li><span>Complexité des obstacles</span> : Certains défis techniques, comme l’installation
-                        d’Android Studio ou les limitations d’Apple, sont plus difficiles à surmonter seul.</li>
+                        d’Android Studio ou les limitations d’Apple. M'a vraiment montré que je suis débrouillard quand
+                        je le veux.</li>
                 </ul>
             </div>
             <div class="background">
@@ -494,15 +543,25 @@
                         (prévision météorologique et recommendations vestimentaires)</li>
                     <li>Adaptabilité : Malgré les problèmes que j'ai eu, j'ai réussis à trouver des alternatives
                         pour
-                        contourner les problèmes</li>
+                        contourner les problèmes.</li>
                 </ul>
             </div>
+            <div class="background">
+                <h3>Future ?</h3>
+                <ul>
+                    <li>Université : <span>Continuer à apprendre et à explorer de nouvelles technologies</span> pour
+                        élargir mes compétences et rester à jour.</li>
+                    <li>Carrière : <span>Utiliser Flutter dans des projets professionnels</span> pour créer des
+                        applications mobiles performantes et modernes.</li>
 
+                </ul>
+            </div>
         </section>
 
 
     </main>
     <footer>
+
         <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 590" xmlns="http://www.w3.org/2000/svg"
             class="transition duration-300 ease-in-out delay-150">
             <path
@@ -518,5 +577,6 @@
 </body>
 <script src="./js/animation_menu.js"></script>
 <script src="./js/carrouselle.js"></script>
+<script src="./js/zoom_demo.js"></script>
 
 </html>
