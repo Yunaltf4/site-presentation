@@ -21,16 +21,16 @@ Application mobile intuitive qui fournit des prévisions météorologiques en te
 - **Geolocator** (Géolocalisation)
 - **Adobe Fonts** (Typographie)
 
+## 🚀 Installation
+1. Téléchargez le fichier APK ci-dessus
+2. Activez les sources inconnues dans les paramètres Android
+3. Installez et lancez l'application
+
 ## 📱 Téléchargement
 [![Télécharger l'APK](assets/pres_a_sortir_qr.png)](https://www.mediafire.com/file/yitd097q7h59p4t/Pr%C3%AAt-%C3%A0-Sortir.apk/file)
 
 ## 🎥 Démonstration
 ![Démo de l'application](assets/demo.gif)
-
-## 🚀 Installation
-1. Téléchargez le fichier APK ci-dessus
-2. Activez les sources inconnues dans les paramètres Android
-3. Installez et lancez l'application
 
 ## 🧠 Défis Relevés
 - Intégration complexe d'API météo
