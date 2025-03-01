@@ -92,25 +92,31 @@
             <div class="background">
                 <h3>Objectif du projet de recherche</h3>
 
-
-                <p>Mon objectif principal est d’<span>apprendre Flutter</span> et de comprendre son fonctionnement
-                    en profondeur.</p>
-                <p>J’ai choisi <span>Flutter</span> car il permet de développer des <span>apppcations mobiles
-                        multiplateformes</span> avec un seul codebase, ce qui est un atout majeur.</p>
-                <p>Ayant déjà appris <span>React</span>, j’ai trouvé que <span>Flutter</span> partage plusieurs
-                    simiptudes avec lui, notamment dans la structure des composants et le fonctionnement du
-                    framework.</p>
-                <p>À travers ce projet, je souhaite explorer les <span>widgets Flutter</span>, la gestion de l’état
-                    et l’intégration d’API pour mieux maîtriser cette technologie.</p>
-                </ul>
+                <div class="width">
+                    <p>Mon objectif principal est d’<span>apprendre Flutter</span> et de comprendre son fonctionnement
+                        en profondeur.</p>
+                    <p>J’ai choisi <span>Flutter</span> car il permet de développer des <span>apppcations mobiles
+                            multiplateformes</span> avec un seul codebase, ce qui est un atout majeur.</p>
+                    <p>Ayant déjà appris <span>React</span>, j’ai trouvé que <span>Flutter</span> partage plusieurs
+                        simiptudes avec lui, notamment dans la structure des composants et le fonctionnement du
+                        framework.</p>
+                    <p>À travers ce projet, je souhaite explorer les <span>widgets Flutter</span>, la gestion de l’état
+                        et l’intégration d’API pour mieux maîtriser cette technologie.</p>
+                </div>
+                <img class="study" src="assets/study.svg" alt="etudier">
+                <img class="flutter" src="assets/flutter.svg" alt="Flutter">
             </div>
 
             <div class="background">
+                <img class="flutter2" src="assets/flutter.svg" alt="flutter">
+                <img class="versus" src="assets/versus.png" alt="versus">
+                <img class="react" src="assets/react.svg" alt="react">
                 <h3>Présentation rapide de Flutter</h3>
                 <p>Flutter est un <span>framework open-source</span> développé par Google pour créer des
                     <span>applications mobiles</span>, <span>web et desktop</span> avec un seul code base. Il
                     utilise le langage <span>Dart</span> et offre
-                    une performance proche du natif grâce à son moteur graphique <span>Skia</span>.
+                    une performance proche du natif grâce à son moteur graphique <span>Skia</span> (librairie graphique
+                    open source).
                 </p>
                 <h3>Equivalent de Flutter</h3>
                 <table>
@@ -163,9 +169,14 @@
         <section class="desc" id="desc">
             <h1>Description</h1>
             <div class="background">
-                <h3>Projet d'application mobile météo</h3>
+                <img class="flutter3" src="assets/flutter.svg" alt="Flutter">
+                <img class="smartphone" src="assets/smartphone.svg" alt="smartphone">
+                <img class="luneNeige" src="assets/luneNeige.svg" alt="luneNeige">
+                <img class="openWeather" src="assets/openweather.svg" alt="OpenWeatherMap">
 
-                <h3>But du projet</h3>
+                <h3><span>Projet d'application mobile météo</span></h3>
+
+                <h3>But du projet :</h3>
                 <ul>
                     <li>Créer une <span>application mobile intuitive et accessible</span> permettant de consulter
                         facilement la météo.</li>
@@ -198,6 +209,16 @@
         <section class="proto" id="proto">
             <h1>Prototype</h1>
             <div class="background">
+                <div class="identiteVisuelle">
+                    <div class="palette">
+                        <h3>Palette de Couleur</h3>
+                        <img src="assets/colorpalette.png" alt="Palette de Couleur">
+                    </div>
+                    <div class="font">
+                        <h3>Font</h3>
+                        <img src="assets/Group_8.png" alt="font">
+                    </div>
+                </div>
                 <div class="image">
                     <div>
                         <p>Premier Prototype</p>
@@ -270,6 +291,7 @@
             <h1>Extrait de code</h1>
             <div class="background">
                 <div class="code">
+                    <img src="assets/leverSoleil.jpg" alt="leverSoleil">
                     Color _getTopColor() {
                     <br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (_meteo == null) return Colors.orange;<br>
@@ -307,6 +329,9 @@
                     );<br>
                 </div>
                 <div class="code">
+                    <img class="lune" src="assets/lune.gif" alt="lune">
+                    <img class="nuage" src="assets/nuage.gif" alt="nuage">
+                    <img class="nuageux" src="assets/nuageux.gif" alt="nuageux">
                     String _getWeatherAnimation(String? condition) {<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (condition == null) return
                     'assets/meteo/default.json';<br>
@@ -345,32 +370,32 @@
             </div>
             <div class="background">
                 <div class="code">
+                    <img src="assets/location.svg" alt="location">
                     Future&lt;String&gt; getVilleActuelle() async {<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsptry {<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLocationPermission permission =<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLocationPermission permission =
                     await Geolocator.checkPermission();<br>
                     <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (permission ==<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (permission ==
                     LocationPermission.denied) {<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppermission =<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppermission =
                     await Geolocator.requestPermission();<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (permission ==<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspif (permission ==
                     LocationPermission.deniedForever) {<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn "";<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br>
                     <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPosition position = await<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPosition position = await
                     Geolocator.getCurrentPosition(<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsplocationSettings:<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsplocationSettings:
                     LocationSettings(accuracy: LocationAccuracy.high),<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp);<br>
                     <br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspList&lt;Placemark&gt; repere =
-                    await<br>
-                    placemarkFromCoordinates(position.latitude, position.longitude);<br>
+                    await placemarkFromCoordinates(position.latitude, position.longitude);<br>
                     <br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn<br>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn
                     repere[0].locality ?? "";<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp} catch (e) {<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspreturn "";<br>
@@ -389,6 +414,8 @@
             </div>
             <div class="background">
                 <div class="code">
+                    <img class="soleil" src="assets/soleil.svg" alt="soleil">
+                    <img class="luneNuage" src="assets/luneNuage.svg" alt="lune Nuage">
                     Future&lt;Meteo&gt; getMeteo(String nomVille) async {<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsptry {<br>
                     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfinal rep = await http.get(<br>

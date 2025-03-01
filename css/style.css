@@ -197,6 +197,7 @@
 
     /*Main*/
     .background {
+        position: relative;
         padding: 0.5rem;
         background: rgba(255, 255, 255, 0.25);
         box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -228,6 +229,13 @@
         padding-top: 2rem;
         text-align: center;
     }
+
+    main section.obj img,
+    main section.extr .code img,
+    main section.desc img {
+        display: none;
+    }
+
 
     main section.obj table {
         border-collapse: collapse;
@@ -390,6 +398,7 @@
         margin: 1rem;
     }
 
+
     /*Footer*/
 
 
@@ -424,7 +433,7 @@
             position: sticky;
             top: 0;
             /* background: rgb(255, 255, 255); */
-            outline: 2px solid rgb(195, 173, 255);
+            outline: 2px solid rgb(117, 138, 255);
         }
 
         /* main section {
@@ -452,6 +461,43 @@
         main section p {
             padding: 1rem;
         }
+
+        main section div.width {
+            width: 80%;
+        }
+
+        main section.obj img {
+            width: 10%;
+            display: block;
+            position: absolute;
+        }
+
+        main section.obj .study {
+            top: 5%;
+            right: 10%;
+        }
+
+        main section.obj .flutter {
+            top: 50%;
+            right: 7%;
+        }
+
+        main section.obj .flutter2 {
+            top: 70%;
+            right: 3.5%;
+        }
+
+        main section.obj .versus {
+            top: 73%;
+            right: 13%;
+            width: 5rem;
+        }
+
+        main section.obj .react {
+            top: 70%;
+            right: 20%;
+        }
+
 
         main section.obj table {
             margin: 1rem auto;
@@ -500,6 +546,85 @@
         main section.demo div div {
             width: 30%;
         }
+
+        main section.extr .code {
+            position: relative;
+        }
+
+        main section.extr .code img {
+            display: block;
+            position: absolute;
+            width: 20%;
+            right: 20%;
+        }
+
+        main section.extr .code img.lune {
+            width: 8rem;
+        }
+
+        main section.extr .code img.nuage {
+            width: 8rem;
+        }
+
+        main section.extr .code img.nuageux {
+            width: 8rem;
+            right: 30%;
+            top: 23%;
+        }
+
+        main section.extr .code img.nuage {
+            width: 8rem;
+            /* right: 30%; */
+            top: 40%;
+        }
+
+        main section.extr .code img.luneNuage {
+            right: 10%;
+            top: 20%;
+        }
+
+        main section.desc img {
+            display: block;
+            position: absolute;
+            width: 10%;
+        }
+
+        main section.desc img.flutter3 {
+            right: 5%;
+        }
+
+        main section.desc img.smartphone {
+            right: 15%;
+            top: 20%;
+        }
+
+        main section.desc img.luneNeige {
+            right: 5%;
+            top: 35%;
+            width: 20%;
+        }
+
+        main section.desc img.openWeather {
+            right: 15%;
+            top: 60%;
+            width: 15%;
+        }
+
+        main section.proto .identiteVisuelle {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            /* align-self: center; */
+            justify-content: space-around;
+            /* align-items: center; */
+        }
+
+        main section.proto .identiteVisuelle div.palette,
+        main section.proto .identiteVisuelle div.font {
+            width: 30%;
+            margin-bottom: 2rem;
+        }
+
     }
 
     @media (max-width: 767px) {
