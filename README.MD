@@ -28,7 +28,7 @@ Application mobile intuitive qui fournit des prévisions météorologiques en te
 
 ## 📱 Téléchargement
 - **Peut être cliquer**
-[![Télécharger l'APK](assets/pres_a_sortir_qr.png)](https://www.mediafire.com/file/yitd097q7h59p4t/Pr%C3%AAt-%C3%A0-Sortir.apk/file)
+[![Télécharger l'APK](assets/pres_a_sortir_qr.png)](https://www.mediafire.com/file/w6fhsygbjlem8c4/Pr%25C3%25AAt_%25C3%25A0_Sortir.apk/file)
 
 ## 🎥 Démonstration
 ![Démo de l'application](assets/demo.gif)
