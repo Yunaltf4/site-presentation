@@ -27,6 +27,7 @@ Application mobile intuitive qui fournit des prévisions météorologiques en te
 3. Installez et lancez l'application
 
 ## 📱 Téléchargement
+- **Peut être cliquer**
 [![Télécharger l'APK](assets/pres_a_sortir_qr.png)](https://www.mediafire.com/file/yitd097q7h59p4t/Pr%C3%AAt-%C3%A0-Sortir.apk/file)
 
 ## 🎥 Démonstration
